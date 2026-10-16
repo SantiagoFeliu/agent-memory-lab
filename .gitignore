@@ -1,0 +1,31 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Databases and memory
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.faiss
+*.index
+data/
+exports/
+backups/
+logs/
+# Python and Node
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.coverage
+dist/
+build/
+.DS_Store
